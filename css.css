@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+  } 
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://budapestcollege.hu/wp-content/uploads/2024/04/vecteezy_beautiful-blue-mountain-landscape-with-sunrise-and-sunset-in_7162596-1.jpg') no-repeat center center fixed;
+    background-size: cover; 
+    height: 100vh;
+  }
+  .profile-card{
+   background-color: hsla(0, 0%, 100%, 0.5);
+   width: 480px;
+   border-radius: 3%;
+   box-shadow: hsla(0, 0%, 0%, .8) 7px 7px 60px; 
+   text-align: center;
+   }
+  .profile-card img{
+   width: 120px;
+   height: 120px;
+   border-radius: 50%;
+   margin-top: -60px;
+   filter: grayscale(80%);
+   transition: 0.2s; 
+  }
+  .content{
+   border-top: 1px solid hsla(0, 0%, 30%, .8); 
+   padding: 10% 3%;
+   margin-top: 3%;
+   font-size: 18px;
+  }
+  .head, .about {
+   margin-bottom: 10%;
+  }
+  .top, .links {
+   width: 90%;
+   margin: 0 auto;
+  }
+  .links li{
+    display: inline;
+    filter: grayscale(80%);
+    transition: 0.7s;
+    
+  }
+  img:hover {
+   transform: scale(1.1);
+   filter: grayscale(0%);
+  }
+  .fa-location-dot:hover {
+   transform: scale(1.3);
+   color: blue; 
+  }
+  .fa-location-dot{
+   transition: 0.3s;  
+  }
+  li:hover {
+   filter: grayscale(0%);
+  }
+  .fa-square-twitter:hover {
+   transform: scale(1.3);
+  }
+  .fa-tiktok:hover {
+   transform: scale(1.3);
+  }
+  .fa-square-instagram:hover {
+   transform: scale(1.3);
+  }
